@@ -1,4 +1,3 @@
-import params as params
 from flask import Flask,render_template,request,redirect,flash
 from flask_mail import Mail
 from flask_wtf import FlaskForm
