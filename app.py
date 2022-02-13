@@ -41,7 +41,7 @@ def contactus():
         email = request.form.get('email')
         subject = request.form.get('subject')
         message = request.form.get('message')
-        mail.send_message(f"This is a message from CLAN BLOG by {name}",
+        mail.send_message(f"This is a message from {name}",
                           sender=email,
                           recipients=[params['gmail_user']],
                           body=email+'\n'+subject+'\n'+message)
