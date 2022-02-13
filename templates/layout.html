@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{{params['web_name']}}</title>
+    <link rel="icon" type="image/x-icon" href=#>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
+</head>
+<div id="menu">
+<nav>
+<label for="show-menu" class="responsive">&#9776;</label>
+<input type="checkbox" id="show-menu" role="button">
+<ul id="topnav">
+<li><a href="{{url_for('homepage')}}">{{params['web_name']}}</a></li>
+    <li><a href="{{url_for('watchus')}}">Watch our videos</a></li>
+<li><a href="{{url_for('contactus')}}">Contact Us</a></li>
+
+</ul>
+
+</nav></div>
+{%block body%}
+{%endblock%}
+<hr>
+
+<div class="section">
+
+<div class="pageitem">
+<h2>Get Social</h2>
+</div>
+
+<div class="pageitem">
+    <div class="col">
+    <a href=""><img src="https://img.icons8.com/cute-clipart/64/000000/instagram-new.png">
+    <p><a href={{params['instagram_link']}} target="_blank">We are on INSTAGRAM<br>FOLLOW US</a></p></a>
+    </div>
+    <div class="col">
+    <a href="#"><img src="https://img.icons8.com/external-prettycons-flat-prettycons/47/000000/external-youtube-multimedia-prettycons-flat-prettycons.png">
+    <p><a href={{params['youtube_link']}} target="_blank">We are on Youtube<br>SUBSCRIBE NOW</a></p></a>
+    </div>
+</div>
+
+</div><div class="section">
+<div id="footer">
+</div>
+</div>
+<div class="section">
+<div id="credits">
+    <div class="col"><p>&copy; Copyright 2022 {{params['web_name']}}</p></div>
+    <div class="col"><p class="right"><a href="https://github.com/E4crypt3d">WEBSITE by E4CRYPT3D</a> </p></div>
+</div></div>
+</html>

@@ -1,0 +1,23 @@
+{% extends 'layout.html'%}
+{%block body%}
+
+<link rel="stylesheet" href="{{url_for('static',filename='css/extras.css')}}">
+<div class="row mb-5">
+<div class="col-12 ">
+<h2 class="site-section-heading text-center">Watch our latest videos</h2>
+</div>
+</div>
+<div class="row" id="lightgallery">
+
+	<a class="youtube" href={{params['video_link1']}} target="_blank" style="left:20px;">
+    <img src={{params['video_thumbnail1']}} alt={{params['video_title1']}} style="width: 400px;-webkit-border-radius: 0%;">
+</a>
+	<a class="youtube" href={{params['video_link2']}} target="_blank" style="left:83px;">
+    <img src={{params['video_thumbnail2']}} alt={{params['video_title1']}}  style="width: 400px;-webkit-border-radius: 0%;">
+</a>
+    <a class="youtube" href={{params['video_link3']}} target="_blank" style="left:150px;" >
+    <img src={{params['video_thumbnail3']}} alt={{params['video_title1']}} style="width: 400px;-webkit-border-radius: 0%;">
+</a>
+</div>
+
+{% endblock%}

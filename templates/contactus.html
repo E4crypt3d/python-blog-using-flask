@@ -1,0 +1,36 @@
+{%extends 'layout.html'%}
+{%block body%}
+<link rel="stylesheet" href="{{url_for('static',filename='css/contact.css')}}">
+<body>
+<div class="contact1">
+<div class="container-contact1">
+<div class="contact1-pic js-tilt">
+<img src="{{url_for('static', filename='img/msg.jpg')}}" alt="IMG">
+</div>
+<form action="{{url_for('contactus')}}" method="post" class="contact1-form validate-form">
+<span class="contact1-form-title">
+Get in touch
+</span>
+    {% with messages = get_flashed_messages() %}
+   {% if messages %}
+      {% for message in messages %}
+    <div class="alert alert-success" >{{message }}</div>
+      {% endfor %}
+   {% endif %}
+{% endwith %}
+    {{form.hidden_tag() }}
+    {{form.name(class="input1", placeholder="Name")}}<br>
+{{form.email(class="input1", placeholder="Email")}}<br>
+{{form.subject(class="input1", placeholder="Subject")}}<br>
+{{form.message(class="input1", placeholder="Message Here")}}
+<div class="container-contact1-form-btn">
+<span>
+<br>{{form.send_email(class="contact1-form-btn")}}
+</span>
+</div>
+</form>
+</div>
+</div>
+
+</body>
+{%endblock%}

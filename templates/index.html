@@ -1,0 +1,40 @@
+{%extends 'layout.html'%}
+{%block body%}
+<body>
+<div id="container">
+<div id="pageheader">
+    <div class="col">
+    <h1>{{params['name_here']}}</h1>
+    </div>
+</div>
+    <hr>
+<div class="section">
+
+<div class="pageitem">
+    <img src="{{url_for('static', filename='img/logo.png')}}">
+<h2>{{params["web_name"]}}</h2>
+    <p><em>{{params['web_slogan']}}</em></p>
+</div>
+
+<div class="pageitem">
+    <div class="col">
+    <img src={{params['player3_pic']}}><br>{{params["player_1"]}}
+    </div>
+    <div class="col">
+    <img src={{params['player3_pic']}}><br>{{params["player_2"]}}
+    </div>
+    <div class="col">
+    <img src={{params['player3_pic']}}><br>{{params['player_3']}}
+    </div>
+</div>
+
+<div class="pageitem">
+<p>{{params['about_page']}}</p>
+</div>
+<div class="section">
+
+<div class="pageitem">
+    <p>{{params['about_us']}}</p></div>
+</div></div></div>
+</body>
+{%endblock%}

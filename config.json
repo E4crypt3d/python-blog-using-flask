@@ -1,0 +1,34 @@
+{"params": {
+  "web_name": "Template by E4CRYPT3D",
+  "web_slogan": "Follow me on github",
+  "about_page": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+
+
+  "player_1": "Player1",
+  "player1_pic": "https://placeimg.com/200/200/nature",
+  "player_2": "Player2",
+  "player2_pic": "https://placeimg.com/200/200/nature",
+  "player_3": "Player3",
+  "player3_pic":  "https://placeimg.com/200/200/nature",
+  "name_here": "E4CRYPT3D TEMPLATE",
+  "about_us" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  
+  "gmail_user": "your-gmail-user-here",
+  "gmail_pass": "your-gmail-pass-here",
+
+  "youtube_link": "your-youtube-link-here",
+  "instagram_link": "your-instagram-link-here",
+
+  "video_link1":"#",
+  "video_title1":"TitleHere",
+  "video_thumbnail1": "https://upload.wikimedia.org/wikipedia/commons/c/c9/-Insert_image_here-.svg",
+  "video_link2":"#",
+  "video_title2":"TitleHere",
+  "video_thumbnail2": "https://upload.wikimedia.org/wikipedia/commons/c/c9/-Insert_image_here-.svg",
+  "video_link3":"#",
+  "video_title3":"TitleHere",
+  "video_thumbnail3": "https://upload.wikimedia.org/wikipedia/commons/c/c9/-Insert_image_here-.svg"
+
+
+}
+}
