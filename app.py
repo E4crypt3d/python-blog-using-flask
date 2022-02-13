@@ -35,7 +35,7 @@ def homepage():
 def contactus():
     form = Contactus()
     if form.validate_on_submit():
-        flash('Your message was sent successfully.\nThanks for visiting us we will get back to you soon.\nHAPPY GAMING..! Regards DARKISTAN')
+        flash(params['form_validate_flash_msg'])
     if (request.method=='POST'):
         name = request.form.get('name')
         email = request.form.get('email')

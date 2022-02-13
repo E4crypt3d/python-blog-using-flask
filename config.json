@@ -27,8 +27,9 @@
   "video_thumbnail2": "https://upload.wikimedia.org/wikipedia/commons/c/c9/-Insert_image_here-.svg",
   "video_link3":"#",
   "video_title3":"TitleHere",
-  "video_thumbnail3": "https://upload.wikimedia.org/wikipedia/commons/c/c9/-Insert_image_here-.svg"
+  "video_thumbnail3": "https://upload.wikimedia.org/wikipedia/commons/c/c9/-Insert_image_here-.svg",
 
+  "form_validate_flash_msg": "Thanks for contacting us..."
 
 }
 }
